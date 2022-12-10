@@ -2,7 +2,7 @@ public class ContaEspecial extends Conta {
 
     private double limite;
 
-    public ContaEspecial(int numero, String nomeTitular, double limite) {
+    public ContaEspecial(int numero, Cliente titular, double limite) {
         super(numero, titular);
         this.limite = limite;
     }
